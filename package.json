@@ -1,0 +1,11 @@
+{
+  "name": "mijugo",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/nigeon/mijugo",
+  "author": "nigeon <nigeon@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "zeppelin-solidity": "^1.10.0"
+  }
+}
