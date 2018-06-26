@@ -25,19 +25,10 @@ contract TestBetFactory {
     Assert.equal(returnedId, expected, "Second bet ID '1' should be recorded.");
   }
 
-  function testBetOwner() public {
-    address returnedOwner;
-
-    (returnedOwner,,,,,,) = betfactory.getBet(0);
-    Assert.equal(returnedOwner, this, "Bet owners are the same.");
-  }
-
   function testUserCanEnter() public {
     uint returnedId = betfactory.enter.value(10 wei)(0,"Entering the first entry");
     uint expected = 0;
     Assert.equal(returnedId, expected, "First entry ID '0' should be recorded.");
   }
 
-  //Can't test "revert" code.
-  //Tests will be in JS because of Solidity limations.
 }
