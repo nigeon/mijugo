@@ -61,12 +61,11 @@ contract BetFactory is Ownable {
     return _entryId;
   }
 
-  function close(uint _betId) public onlyOwnerOf(_betId){
+  function stop(uint _betId) public onlyOwnerOf(_betId){
     bets[_betId].status = BetStatus.stopped;
-
   }
 
-  function finish(uint _betId, string _winner_content) public onlyOwnerOf(_betId){
+  function end(uint _betId, string _winner_content) public onlyOwnerOf(_betId){
     require(bets[_betId].status == BetStatus.stopped);
     
     bets[_betId].status = BetStatus.ended;
