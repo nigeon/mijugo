@@ -2246,20 +2246,24 @@ drbg.js@^1.0.1:
     create-hash "^1.1.2"
     create-hmac "^1.1.4"
 
-drizzle-react-components@^1.0.1:
+drizzle-react-components@1.1.0:
   version "1.1.0"
   resolved "https://registry.yarnpkg.com/drizzle-react-components/-/drizzle-react-components-1.1.0.tgz#473144e8f0dc430886568ceb9baaa850378ff3e5"
   dependencies:
     drizzle "^1.0.0"
     react "^15.4.2"
 
-drizzle-react@^1.0.1:
-  version "1.1.1"
-  resolved "https://registry.yarnpkg.com/drizzle-react/-/drizzle-react-1.1.1.tgz#89ed8d0f256784602335d19741df6264ed90f765"
+drizzle-react@1.1.0:
+  version "1.1.0"
+  resolved "https://registry.yarnpkg.com/drizzle-react/-/drizzle-react-1.1.0.tgz#29c85e1117170f91c834d598359953af331b6650"
   dependencies:
     react "^15.4.2"
 
-drizzle@^1.0.0, drizzle@^1.0.1:
+drizzle@1.1.5:
+  version "1.1.5"
+  resolved "https://registry.yarnpkg.com/drizzle/-/drizzle-1.1.5.tgz#2e55ad3ae63a6f6f4c149102ffa70f1354a85ee4"
+
+drizzle@^1.0.0:
   version "1.2.1"
   resolved "https://registry.yarnpkg.com/drizzle/-/drizzle-1.2.1.tgz#a0abfde5d8fa6c47a53a6a6330621e5ed7ff7c3a"
 
